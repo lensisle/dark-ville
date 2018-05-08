@@ -8,7 +8,8 @@ export default class extends React.Component {
   static Description = Description
 
   state = {
-    activeRoom: 'room1A'
+    activeRoom: 'room1A',
+    debugMode: false,
   }
 
   render() {
@@ -19,7 +20,7 @@ export default class extends React.Component {
     const children = React.Children.map(
       this.props.children,
       child => React.cloneElement(child, {
-        activeRoom
+        ...this.state
       })
     )
 
