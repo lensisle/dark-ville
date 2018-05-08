@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 import Room from '../components/room'
 
-class App extends Component {
+class Screen extends Component {
   render () {
-    return <Room name='room1A' />
+    return <Room asset='room1A' />
   }
 
 }
 
-export default App
+export default Screen

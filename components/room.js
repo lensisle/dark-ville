@@ -1,19 +1,18 @@
 import glamorous from 'glamorous'
 
 const RoomContainer = glamorous.div({
-  width: 640,
-  height: 360
+  
 })
 
 const RoomImage = glamorous.img({
   display: 'block',
-  width: '100%',
-  height: '100%'
+  width: 640,
+  height: 360
 })
 
-const Room = ({ name }) => (
+const Room = ({ asset }) => (
   <RoomContainer>
-    <RoomImage src={`/static/${name}.png`} />
+    <RoomImage src={`/static/${asset}.png`} />
   </RoomContainer>
 )
 
