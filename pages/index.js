@@ -1,13 +1,12 @@
 import Layout from '../components/layout';
-
-import Menu from '../components/menu';
-import Screen from '../components/screen';
-import Description from '../components/description';
+import Game from '../components/game';
 
 export default () => (
   <Layout>
-    <Menu css={{ gridArea: 'menu' }}>Menu</Menu>
-    <Screen css={{ gridArea: 'screen' }} />
-    <Description css={{ gridArea: 'desc' }}>Description</Description>
+    <Game>
+      <Game.Menu css={{ gridArea: 'menu' }}>Menu</Game.Menu>
+      <Game.Screen css={{ gridArea: 'screen' }} />
+      <Game.Description css={{ gridArea: 'desc' }}>Description</Game.Description>
+    </Game>
   </Layout>
 )

@@ -1,7 +1,13 @@
 import glamorous from 'glamorous'
 
-const Menu = glamorous.div({
+const MenuStyle = glamorous.div({
   background: 'red'
 })
+
+const Menu = ({ activeRoom }) => {
+
+  return <MenuStyle>Current Room: { activeRoom }</MenuStyle>
+
+}
 
 export default Menu
