@@ -1,0 +1,17 @@
+{
+  "name": "dark-ville",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "glamor": "^2.20.40",
+    "glamorous": "^4.12.5",
+    "next": "^6.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "scripts": {
+    "dev": "next"
+  }
+}
